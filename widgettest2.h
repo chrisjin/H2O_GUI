@@ -51,49 +51,30 @@ public:
 
 		stpbt = new Button(Point2D(200, 30), Size2D(80, 40));
 		stpbt->setText("Stop");
-		
-
-		//Dialog *dlg=new Dialog(Point2D(700,150),Size2D(200,100));
-		//another=new Widget(Point2D(0,0),getRect().Size);
 		dragtile = new DragTile(Point2D(50, 150), Size2D(60, 60));
 		gifplayer = new GIFPlayer(Point2D(0,0));
-		//gifplayer1 = new GIFPlayer(Point2D(340, 0));
-		//gifplayer2 = new GIFPlayer(Point2D(0, 0));
+
 		textedit = new TextEdit(Point2D(20, 100), Size2D(750, 20));
 		textedit->showText("Hello!This is an edit control!");
 		conformbtn = new Button(Point2D(790, 100), Size2D(80, 20));
 		conformbtn->setText("Browse");
 
 
-		//textedit1 = new TextEdit(Point2D(20, 250), Size2D(800, 25));
-		//warbt=new Button(Point2D(550,0),2);
 		capscreen = new CaptionScreen(Point2D(0, 0), getRect().Size);
 		gifplayer->loadGIF("src/BTNSpellBreaker.gif");
 
-		//gifplayer1->loadGIF("src/k.gif");
-		//gifplayer2->loadGIF("src/measure_speed_wait.gif");
-		//gifplayer2->setHide();
-		//dragtile->addTile(gifplayer2);
 
-		//another->addTile(innerbt);
-		// another->addTile(dragtile);
 		addTile(innerbt);
 		addTile(stpbt);
 		addTile(gifplayer);
-		//addTile(gifplayer1);
 		addTile(dragtile);
 		addTile(textedit);
-		//addTile(textedit1);
 		addTile(conformbtn);
-		//addTile(warbt);
-		//addTile(dlg);
-		//addTile(capscreen);
 		dragtile->addTile(gifplayer);
 
 		innerbt->connect(Button::s_clicked, this, &WidgetTest::show);
 		stpbt->connect(Button::s_clicked, this, &WidgetTest::stop);
 		conformbtn->connect(Button::s_clicked, this, &WidgetTest::pressconfirm);
-		//tm.setTimer(this,&WidgetTest::show,50);
 
 
 		for (int i = 0; i < getBitmap().getHeight();i++)
@@ -103,9 +84,6 @@ public:
 		font->createFont(14, 14, "C:/Windows/Fonts/simsun.ttc");
 
 
-		//type.setFont(font);
-		//type.setCurPosition(400, 10);
-		//type.setOutput(getBitmap());
 
 
 	}
