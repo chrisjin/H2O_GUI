@@ -2,7 +2,7 @@ H2O_GUI
 ============
 Features
 ----------------
-* Font render system based on FreeType
+* Font rendering based on FreeType
 * IME support
 * Renderer based on Win32 GDI
 * Native cpp implementation of signal and slot
@@ -14,6 +14,15 @@ Features
 
 Demos
 -----------------
+<p>
+	Button down
+	![btndown](https://github.com/chrisjin/MyResources/blob/master/H2O/btndown.png)
+<p> 
+	Button up
+	![btnup](https://github.com/chrisjin/MyResources/blob/master/H2O/btnup.png)
+<p>
+	Chinese input
+	![chineseinput](https://github.com/chrisjin/MyResources/blob/master/H2O/chinese.png)
 <p>
 	A simple gif player.
 ![Gifplayer](https://github.com/chrisjin/MyResources/blob/master/H2O/GIFPlayer.PNG)

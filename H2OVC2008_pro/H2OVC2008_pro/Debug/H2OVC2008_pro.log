@@ -1,10 +1,7 @@
-﻿Build started 12/28/2014 7:58:13 PM.
+﻿Build started 12/28/2014 8:23:51 PM.
      1>Project "C:\Home\WorkPlace\GitTest\BACK\H2O_Reconstruct\H2OVC2008_pro\H2OVC2008_pro\H2OVC2008_pro.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Home\Programs\Visual Studio 2013\VC\bin\CL.exe /c /IC:\Home\WorkPlace\GitTest\BACK\H2O_Reconstruct\FreeType\include /IC:\Home\WorkPlace\GitTest\BACK\H2O_Reconstruct\FreeImage /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\gamepanel.cpp ..\..\main.cpp
-         gamepanel.cpp
-         Generating Code...
-         Compiling...
+         C:\Home\Programs\Visual Studio 2013\VC\bin\CL.exe /c /IC:\Home\WorkPlace\GitTest\BACK\H2O_Reconstruct\FreeType\include /IC:\Home\WorkPlace\GitTest\BACK\H2O_Reconstruct\FreeImage /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\main.cpp ..\..\widgettest2.cpp
          main.cpp
      1>c:\home\workplace\gittest\back\h2o_reconstruct\lockscreendlg.h(39): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  c:\home\programs\visual studio 2013\vc\include\stdio.h(211) : see declaration of 'fopen'
@@ -14,6 +11,9 @@
                  c:\home\programs\visual studio 2013\vc\include\stdio.h(211) : see declaration of 'fopen'
      1>c:\home\workplace\gittest\back\h2o_reconstruct\lockscreendlg.h(62): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  c:\home\programs\visual studio 2013\vc\include\stdio.h(230) : see declaration of 'fscanf'
+         Generating Code...
+         Compiling...
+         widgettest2.cpp
          Generating Code...
        Link:
          C:\Home\Programs\Visual Studio 2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Home\WorkPlace\GitTest\BACK\H2O_Reconstruct\H2OVC2008_pro\Debug\H2OVC2008_pro.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\Home\WorkPlace\GitTest\BACK\H2O_Reconstruct\FreeType /LIBPATH:C:\Home\WorkPlace\GitTest\BACK\H2O_Reconstruct\FreeImage freeimage.lib freetype.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Home\WorkPlace\GitTest\BACK\H2O_Reconstruct\H2OVC2008_pro\Debug\H2OVC2008_pro.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Home\WorkPlace\GitTest\BACK\H2O_Reconstruct\H2OVC2008_pro\Debug\H2OVC2008_pro.lib" /MACHINE:X86 /SAFESEH Debug\gamepanel.obj
@@ -46,4 +46,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:02.97
+Time Elapsed 00:00:03.40
