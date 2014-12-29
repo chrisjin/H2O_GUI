@@ -8,9 +8,14 @@ class GamePanel:public Widget
 public:
     Button *startbt;
     Button *quitbt;
+	Buffer2D<RGBPixel> m_BgImg;
     DEFCSTRCTOR(GamePanel,Widget)
     {
-        getBitmap().fill(RGBPixel(200,200,0));
+		ImageFile image;
+		image.read("src/rockman.jpg");
+		image.writeToMem(getBitmap(),Point2D(0,0));
+		//getBitmap().fill(RGBPixel(200,200,0));
+		
         startbt=new Button(Point2D(getHCenter()-75,getRect().Size.Height-150),
                            Size2D(150,30));
         quitbt=new Button(Point2D(getHCenter()-50,getRect().Size.Height-100),

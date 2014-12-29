@@ -11,3 +11,12 @@ Features
 	* TextEdit
 	* GifPlayer
 
+Demos
+-----------------
+<p>
+	A simple gif player.
+![Gifplayer](https://github.com/chrisjin/MyResources/blob/master/H2O/GIFPlayer.PNG)
+<p>
+	A demo start screen of a game
+![GamePanel](https://github.com/chrisjin/MyResources/blob/master/H2O/Panel.png)
+

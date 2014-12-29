@@ -42,8 +42,8 @@ int nCmdShow
 
 
 
-//    GamePanel* gp=new GamePanel(Point2D(0,0),Size2D(400,450));
-//    //paint->addTile(widget2);
+    GamePanel* gp=new GamePanel(Point2D(0,0),Size2D(800,400));
+	paint->addTile(gp);
     paint->addTile(widget);
 
 //    typedef int (*hook)(HWND);
